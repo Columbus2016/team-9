@@ -13,7 +13,10 @@ import android.widget.TextSwitcher;
 
 public class TutorialActivity extends AppCompatActivity {
     // Array of String to Show In Text Switcher
-    String textToShow[]={"Message 1","Message 2 ","Message 3","Message 4"};
+    String textToShow[]={"Hey, my name is Sagittarius and I’m a freshman! The CHOICES program matched us and you’re supposed to help me graduate high school. ",
+            "If I want to be successful in school, I need your help! This means my grades need to be a C or higher. I also want to get involved and make new friends. ",
+            "My grades will reflect the choices I make. I can also earn trophies for my involvements. But remember, grades come first! ",
+            "I believe we can succeed together! "};
     int msgCount = textToShow.length;
     int currentIndex = 0;
     public void onCreate(Bundle savedInstanceState) {
