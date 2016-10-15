@@ -37,6 +37,8 @@ public class TutorialActivity extends AppCompatActivity {
                 }
                 else{
                     //go to next activity
+                    Intent intent = new Intent(TutorialActivity.this, scenario1.class);
+                    startActivity(intent);
                 }
             }
         });
