@@ -19,24 +19,100 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/infoButton"
-        android:layout_centerVertical="true"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 
-    <Spinner
-        android:layout_width="fill_parent"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/spin2"
-        android:entries="@array/player_age"
-        android:layout_above="@+id/infoButton"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:id="@+id/textView8" />
 
     <Spinner
         android:id="@+id/spin"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:entries="@array/player_age"
+        android:layout_below="@+id/spin2"
+        android:layout_toRightOf="@+id/textView8"
+        android:layout_toEndOf="@+id/textView8"
+        android:layout_marginTop="51dp" />
+
+    <TextView
+        android:text="Select Your Age:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:layout_alignBottom="@+id/spin"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5" />
+
+    <Spinner
+        android:id="@+id/spin2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
         android:entries="@array/player_state"
+        android:layout_marginTop="54dp"
+        android:layout_below="@+id/spin3"
+        android:layout_toRightOf="@+id/textView8"
+        android:layout_toEndOf="@+id/textView8"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:text="Select Your State:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:layout_above="@+id/spin"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+
+    <Spinner
+        android:id="@+id/spin3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/player_gender"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/spin2"
+        android:layout_alignStart="@+id/spin2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/choices_logo"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Select Your Gender:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
         android:layout_above="@+id/spin2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:text="Hello, welcome to CHOICES Decison Making Game! Please fill out your personal infromation below. Don't worry, this won't be shared with anyone. It's just to make the game more customized for you."
+        android:fontFamily="sans-serif"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp" />
+
 </RelativeLayout>

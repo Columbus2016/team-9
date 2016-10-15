@@ -8,7 +8,7 @@
     <string name="title_activity_info_screen">InfoScreen</string>
     <string name="title_activity_main_screen">MainScreen</string>
     <string name="title_activity_tutorial">TutorialActivity</string>
-    <string name="Next">Go!</string>
+    <string name= "Next">Go!</string>
 
 
     <string-array name = "player_state">
@@ -89,7 +89,10 @@
         <item>30</item>
     </string-array>
 
-
-
+    <string-array name = "player_gender">
+        <item>Female</item>
+        <item>Male</item>
+        <item>Perfer not to answer</item>
+    </string-array>
 
 </resources>
