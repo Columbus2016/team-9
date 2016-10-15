@@ -92,6 +92,8 @@
     <string-array name="player_gender">
         <item>Female</item>
         <item>Male</item>
+        <item>Transgender</item>
+        <item>Non-Binary</item>
         <item>Perfer not to answer</item>
     </string-array>
     <string name="title_activity_scenario1">scenario1</string>
