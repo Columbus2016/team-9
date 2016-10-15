@@ -13,4 +13,30 @@
     tools:context="com.example.fo893113.choices2016fo.InfoScreen"
     tools:showIn="@layout/activity_info_screen">
 
+
+    <Button
+        android:text="@string/Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/infoButton"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spin2"
+        android:entries="@array/player_age"
+        android:layout_above="@+id/infoButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:id="@+id/spin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/player_state"
+        android:layout_above="@+id/spin2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>

@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/content_main_screen"
+    android:id="@+id/content_tutorial"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
@@ -10,15 +10,14 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.fo893113.choices2016fo.MainScreen"
-    tools:showIn="@layout/activity_main_screen">
+    tools:context="com.example.fo893113.choices2016fo.TutorialActivity"
+    tools:showIn="@layout/activity_tutorial">
 
-    <ImageButton
+    <TextView
+        android:text="Welcome to Choices!"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/character_1"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/imageButton" />
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView" />
 </RelativeLayout>

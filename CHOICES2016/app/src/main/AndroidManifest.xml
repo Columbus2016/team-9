@@ -36,6 +36,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.fo893113.choices2016fo.InfoScreen" />
         </activity>
+        <activity
+            android:name=".TutorialActivity"
+            android:label="@string/title_activity_tutorial"
+            android:parentActivityName=".MainScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fo893113.choices2016fo.MainScreen" />
+        </activity>
     </application>
 
 </manifest>
