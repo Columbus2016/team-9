@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 public class scenario1 extends AppCompatActivity {
     // Array of String to Show In Text Switcher
-    String dialogueTextToShow[]={"Dialogue 1 ","Dialogue 2"};
+    String dialogueTextToShow[]={"\"Ok, I won't start the rumor and talk to Alex tomorrow about it. Good Idea.\"\n","\"Ok, I'll spread it tonight so everyone is talking about it at school tomorrow!\""};
 
 
     public void onCreate(Bundle savedInstanceState) {
