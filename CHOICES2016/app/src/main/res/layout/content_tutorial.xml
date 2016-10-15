@@ -20,4 +20,21 @@
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/textView" />
+
+    <TextSwitcher
+        android:layout_marginTop="50dp"
+        android:id="@+id/textSwitcher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="25dp" />
 </RelativeLayout>
