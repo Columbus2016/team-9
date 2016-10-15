@@ -15,10 +15,10 @@
 
 
     <TextView
-        android:text="Alex was flirting with my crush. I think I want to start a rumor. What do you think?"
+        android:text="Hey! My friend texted me and asked if he can copy from my exam. What should I do?"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="35dp"
+        android:textSize="30dp"
         android:textColor="#000000"
         android:id="@+id/dialogueText"
         android:layout_alignParentTop="true"
@@ -26,7 +26,7 @@
         android:layout_alignParentStart="true" />
 
     <TextView
-        android:text="Option 1 - No, you should talk about what happened with Alex. Jumping to conclusions never ends well. \n\nOption 2 - Yes, start a terrible rumor! Alex deserves it."
+        android:text="A) No, that's cheating, but I'm more than happy to help you study if you have questions. \n\n B) Yeah, sure! Just make sure you don't get us caught."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="27dp"
@@ -48,7 +48,7 @@
         />
 
     <Button
-        android:text="Option 1"
+        android:text="A"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/option1"
@@ -57,7 +57,7 @@
         android:layout_alignParentStart="true" />
 
     <Button
-        android:text="Option 2"
+        android:text="B"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/option2"
