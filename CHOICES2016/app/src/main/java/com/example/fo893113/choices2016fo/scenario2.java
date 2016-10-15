@@ -140,7 +140,7 @@ public class scenario2 extends AppCompatActivity {
             public void onClick(View v) {
                 result.setVisibility(View.VISIBLE);
                 result.setText(finalAnswer[0]);
-                Toast.makeText(scenario2.this, "1 Trophy Awarded", Toast.LENGTH_LONG).show();
+                Toast.makeText(scenario2.this, "1 Trophy Awarded", Toast.LENGTH_SHORT).show();
 
                 moreQuestions.setVisibility(View.VISIBLE);
                 yes.setVisibility(View.VISIBLE);

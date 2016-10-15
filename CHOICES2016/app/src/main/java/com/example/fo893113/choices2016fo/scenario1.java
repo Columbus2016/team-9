@@ -12,8 +12,8 @@ import android.widget.TextView;
 
 public class scenario1 extends AppCompatActivity {
     // Array of String to Show In Text Switcher
-    String dialogueTextToShow[]={"\" Not only did you both get a good grade, but you got closer to your friend.\"\n",
-            "\"You get caught, earn a F on your exam, and get suspended for academic misconduct.\""};
+    String dialogueTextToShow[]={" Not only did you both get a good grade, but you got closer to your friend.\n",
+            "You get caught, earn a F on your exam, and get suspended for academic misconduct."};
 
 
     public void onCreate(Bundle savedInstanceState) {
