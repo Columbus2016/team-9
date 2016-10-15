@@ -23,7 +23,7 @@ public class scenario2 extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        final String finalAnswer[]={"Ok, I think I'll join the club","I don't think I'll join the club"};
+        final String finalAnswer[]={"Ok, I think I'll join the club!","I don't think I'll join the club."};
 
         final Button a1 = (Button)findViewById(R.id.a1);
         final Button b1 = (Button)findViewById(R.id.b1);
