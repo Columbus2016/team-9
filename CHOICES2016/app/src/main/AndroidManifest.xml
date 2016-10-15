@@ -54,6 +54,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.fo893113.choices2016fo.TutorialActivity" />
         </activity>
+        <activity
+            android:name=".badges"
+            android:label="@string/title_activity_badges"
+            android:parentActivityName=".cht1_scenario1"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fo893113.choices2016fo.cht1_scenario1" />
+        </activity>
     </application>
 
 </manifest>
