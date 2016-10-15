@@ -11,6 +11,7 @@ I’ll be demoing our prototype with character 1
 - The character based on the student’s responses made their choices.
 
 > To simulate a multi-dimensional game of cause, effect and branching themes, we broadened the factors affecting characters.
+
 - Student decisions affect the characters academic and social life.
 - Certain decisions may increase social status or future oppurtunities at the expense of the the character's academic life
 - Students are encouraged to work towards certain goals that increase their characters academic and social status
