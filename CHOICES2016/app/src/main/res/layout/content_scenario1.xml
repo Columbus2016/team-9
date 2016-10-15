@@ -13,4 +13,54 @@
     tools:context="com.example.fo893113.choices2016fo.scenario1"
     tools:showIn="@layout/activity_scenario1">
 
+
+    <TextView
+        android:text="Alex was flirting with my crush. I think I want to start a rumor. What do you think?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:id="@+id/dialogueText"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Option 1 - No, you should talk about what happened with Alex. Jumping to conclusions never ends well. \n\nOption 2 - Yes, start a terrible rumor! Alex deserves it."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="27dp"
+        android:id="@+id/optionsText"
+        android:layout_below="@+id/dialogueText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="21dp" />
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Result"
+        />
+
+    <Button
+        android:text="Option 1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/option1"
+        android:layout_below="@+id/optionsText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Option 2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/option2"
+        android:layout_below="@+id/optionsText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
 </RelativeLayout>
