@@ -1,0 +1,21 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   CHOICES2016/.idea/encodings.xml
+#	modified:   CHOICES2016/.idea/gradle.xml
+#	modified:   CHOICES2016/.idea/misc.xml
+#	new file:   CHOICES2016/.idea/vcs.xml
+#	modified:   CHOICES2016/app/src/main/AndroidManifest.xml
+#	modified:   CHOICES2016/app/src/main/java/com/example/fo893113/choices2016fo/MainActivity.java
+#	deleted:    CHOICES2016/app/src/main/java/com/example/fo893113/choices2016fo/logo.java
+#	deleted:    CHOICES2016/app/src/main/res/layout/activity_logo.xml
+#	modified:   CHOICES2016/app/src/main/res/layout/activity_main.xml
+#	modified:   CHOICES2016/app/src/main/res/layout/content_main.xml
+#	new file:   CHOICES2016/app/src/main/res/mipmap-hdpi/choices_logo.jpg
+#	modified:   CHOICES2016/app/src/main/res/values/strings.xml
+#
+

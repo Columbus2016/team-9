@@ -18,6 +18,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".InfoScreen"
+            android:label="@string/title_activity_info_screen"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fo893113.choices2016fo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainScreen"
+            android:label="@string/title_activity_main_screen"
+            android:parentActivityName=".InfoScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fo893113.choices2016fo.InfoScreen" />
+        </activity>
     </application>
 
 </manifest>
