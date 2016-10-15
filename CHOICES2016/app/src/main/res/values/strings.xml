@@ -94,7 +94,7 @@
         <item>Male</item>
         <item>Transgender</item>
         <item>Non-Binary</item>
-        <item>Perfer not to answer</item>
+        <item>Prefer not to answer</item>
     </string-array>
     <string name="title_activity_scenario1">scenario1</string>
     <string name="title_activity_badges">badges</string>
