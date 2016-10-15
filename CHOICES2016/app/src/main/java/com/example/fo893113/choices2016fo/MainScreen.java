@@ -19,7 +19,7 @@ public class MainScreen extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        ImageButton button = (ImageButton) findViewById(R.id.imageButton);
+        Button button = (Button) findViewById(R.id.Person1Button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
