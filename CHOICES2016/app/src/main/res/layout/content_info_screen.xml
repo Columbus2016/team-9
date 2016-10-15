@@ -106,7 +106,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView7"
-        android:text="Hello, welcome to CHOICES Decison Making Game! Please fill out your personal infromation below. Don't worry, this won't be shared with anyone. It's just to make the game more customized for you."
+        android:text="Hello, welcome to CHOICES Decison Making Game! Please fill out your personal information below. Don't worry, this won't be shared with anyone. It's just to make the game more customized for you."
         android:fontFamily="sans-serif"
         android:textSize="18sp"
         android:textAlignment="center"

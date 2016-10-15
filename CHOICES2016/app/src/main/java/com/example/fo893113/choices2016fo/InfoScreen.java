@@ -9,6 +9,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 public class InfoScreen extends AppCompatActivity {
 
@@ -23,7 +24,8 @@ public class InfoScreen extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                goToMainScreen();
+                Toast.makeText(InfoScreen.this, "You chose to go to the party and your coach reprimanded you. You also failed your exam and lowered your class grade to a C.", Toast.LENGTH_LONG).show();
+//                goToMainScreen();
             }
         });
 
