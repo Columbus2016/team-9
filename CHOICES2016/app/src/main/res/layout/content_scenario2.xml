@@ -52,7 +52,7 @@
         android:id="@+id/textView2" />
 
     <TextView
-        android:text="Student: I think so too! I don't have a lot of friends either."
+        android:text="You: I think so too! I don't have a lot of friends either."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView3"
@@ -168,15 +168,6 @@
         android:layout_alignParentStart="true" />
 
     <Button
-        android:text="A"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView18"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/a2" />
-
-    <Button
         android:text="C"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -230,5 +221,14 @@
         android:layout_alignRight="@+id/b2"
         android:layout_alignEnd="@+id/b2"
         android:id="@+id/yes" />
+
+    <Button
+        android:text="A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/a2"
+        android:layout_below="@+id/textView18"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>
