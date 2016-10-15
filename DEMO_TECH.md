@@ -1,23 +1,16 @@
 #DEMO_TECH
 
-> CHOICES
+> We followed an agile software development lifetime cycle model
 
-- CHOICES IS AN ORGANIZATION DEDICATED TO INCREASING THE RETENTION AND GRADUATING RATE FOR AT RISK YOUTH BETWEEN THE AGES OF 13 AND 18
-- OUR GOAL WAS TO CREATE AN INTERACTIVE AND EDUCATIONAL CHOOSE YOUR OWN ADVENTURE GAME THAT PROMOTES AND ENCOURAGES THE STUDENT PARTICIPANTS TO MAKE BETTER CHOICES.
+- First we defined our minimal viable product then we broke the process into several scrum sessions.
+- Some scrum sessions where over in as little as 30 minutes, others went for hours.
+- Once the Minimum Viable Product was reached we focused on developing a more inviting interface with natural interactions
 
-> TECHNICAL
+> To create more interactive scenarios that encouraged critical thinking from the students and built positive rapport between the character and the student we:
 
-- WE FOLLOWED AN AGILE SOFTWARE DEVELOPMENT LIFTIME CYCLE MODEL
-- STARTING WITH DEFINING OUR MINIMAL VIABLE PRODUCT WE BROKE THE PROCESS INTO SEVERAL SCRUM SESSIONS.
-- SOME SCRUM SESSIONS WHERE OVER IN AS LITTLE AS 30 MINUTES, OTHERS WENT FOR HOURS.
-- ONCE THE MVP WAS REACHED WE FOCUSED ON DEVLOPING A MORE INVITING INTERFACE WITH NATURAL INTERACTIONS
+- Emphasized the importance of the student's decisions on the characters academics, social and future opportunities.
+- Made scenarios span actual conversations creating a natural flow that draws in the user.
+- Students are rewarded for making good choices with trophies that increase their skills socially, academically, and introduce new opportunities for the characters.
+- Ultimately the character should with the help of participating students graduate.
 
-> CONCLUSION
-
-- TO CREATE MORE INTERACTIVE SCENARIOS THAT ENCOURAGED CRITICAL THINKING FROM THE STUDENTS AND BUILT POSITIVE RAPPORT BETWEEN THE CHARACTER AND THE STUDENT WE:
-
-- EMPHASIZED THE IMPORTANCE OF THE STUDENT'S DECISIONS ON THE CHRACTERS ACADEMICS, SOCIAL AND FUTURE OPPORTUNITIES.
-- MADE SCENARIOS SPAN ACTUAL CONVERSATIONS CREATING A NATURAL FLOW THAT DRAWS IN THE USER. 
-- STUDENTS ARE REWARDED FOR MAKING GOOD CHOICES WITH TROPHIES
- THAT INCREASE THEIR SKILLS SOCIALLY, ACADEMICALLY, AND INTRODUCE NEW OPPORTUNITIES FOR THE CHARACTERS.
-- ULTIMATELY THE CHRACTER SHOULD WITH THE HELP OF PARTICIPATING STUDENTS GRADUATE.
+> To build our app we used Android Studio, leveraging the accessible and easy to learn IDE.  
