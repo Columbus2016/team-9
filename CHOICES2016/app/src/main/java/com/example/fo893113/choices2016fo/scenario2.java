@@ -172,13 +172,14 @@ public class scenario2 extends AppCompatActivity {
         no.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(scenario2.this, "Going to Badges...", Toast.LENGTH_SHORT).show();
+                onClickNextQuestion();
+            }
+
+            private void onClickNextQuestion(){
+                Intent intent = new Intent(scenario2.this, Trophies.class);
+                startActivity(intent);
             }
         });
-
-
-
-
 
 
 

@@ -99,5 +99,6 @@
     <string name="title_activity_scenario1">scenario1</string>
     <string name="title_activity_badges">badges</string>
     <string name="title_activity_scenario2">scenario2</string>
+    <string name="title_activity_trophies">Trophies</string>
 
 </resources>
