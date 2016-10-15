@@ -13,21 +13,30 @@ import android.widget.TextView;
 public class scenario1 extends AppCompatActivity {
     // Array of String to Show In Text Switcher
     String dialogueTextToShow[]={"Dialogue 1 ","Dialogue 2"};
-    int dialogueCurrentIndex = 0;
+
+
     public void onCreate(Bundle savedInstanceState) {
         setContentView(R.layout.content_scenario1);
         super.onCreate(savedInstanceState);
-        Button optBtnOne = (Button)findViewById(R.id.option1);
-        Button optBtnTwo = (Button)findViewById(R.id.option2);
+        final Button optBtnOne = (Button)findViewById(R.id.option1);
+        final Button optBtnTwo = (Button)findViewById(R.id.option2);
+        final Button nextQuestion = (Button) findViewById(R.id.NextQuestion);
         final TextView result = (TextView) findViewById(R.id.Result);
+
+        nextQuestion.setVisibility(View.INVISIBLE);
+
         optBtnOne.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 onClickBtnOne();
+
             }
 
             private void onClickBtnOne(){
                 result.setText(dialogueTextToShow[0]);
+                optBtnOne.setVisibility(View.INVISIBLE);
+                optBtnTwo.setVisibility(View.INVISIBLE);
+                nextQuestion.setVisibility(View.VISIBLE);
             }
         });
 
@@ -39,6 +48,23 @@ public class scenario1 extends AppCompatActivity {
 
             private void onClickBtnTwo(){
                 result.setText(dialogueTextToShow[1]);
+                optBtnOne.setVisibility(View.INVISIBLE);
+                optBtnTwo.setVisibility(View.INVISIBLE);
+                nextQuestion.setVisibility(View.VISIBLE);
+            }
+        });
+
+
+        nextQuestion.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onClickNextQuestion();
+            }
+
+            private void onClickNextQuestion(){
+
+                Intent intent = new Intent(scenario1.this, scenario2.class);
+                startActivity(intent);
             }
         });
     }

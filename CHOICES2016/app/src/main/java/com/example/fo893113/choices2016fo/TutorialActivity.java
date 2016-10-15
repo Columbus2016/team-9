@@ -9,7 +9,6 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.TextSwitcher;
 
 public class TutorialActivity extends AppCompatActivity {
     // Array of String to Show In Text Switcher
@@ -19,6 +18,7 @@ public class TutorialActivity extends AppCompatActivity {
             "I believe we can succeed together! "};
     int msgCount = textToShow.length;
     int currentIndex = 0;
+
     public void onCreate(Bundle savedInstanceState) {
         setContentView(R.layout.content_tutorial);
         super.onCreate(savedInstanceState);
@@ -31,7 +31,7 @@ public class TutorialActivity extends AppCompatActivity {
 
             private void onClick(){
                 if(currentIndex < msgCount) {
-                    TextView textView=(TextView)findViewById(R.id.textView);;
+                    TextView textView=(TextView)findViewById(R.id.textView);
                     textView.setText(textToShow[currentIndex]);
                     currentIndex++;
                 }
