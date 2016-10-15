@@ -14,8 +14,14 @@
     tools:showIn="@layout/activity_main"
     tools:context="com.example.fo893113.choices2016fo.MainActivity">
 
-    <TextView
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        app:srcCompat="@mipmap/choices_logo"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"/>
+
+
 </RelativeLayout>
