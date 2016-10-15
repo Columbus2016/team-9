@@ -5,7 +5,7 @@ The goal being to encourage the student to make increasingly good choices.
 
 - The game begins with an intro screen that allows students to choose their character. 
 - Students are shown a pictorial description of the character. Including their likes and dislikes.
-I’ll be demoing our prototype with character 1.
+- The demo will be based on interactions based on character 1.
 
 - To create a more interactive experience we made our scenarios span actual conversations.
 - The character based on the student’s responses made their choices.
