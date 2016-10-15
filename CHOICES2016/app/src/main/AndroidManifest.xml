@@ -55,15 +55,6 @@
                 android:value="com.example.fo893113.choices2016fo.TutorialActivity" />
         </activity>
         <activity
-            android:name=".badges"
-            android:label="@string/title_activity_badges"
-            android:parentActivityName=".cht1_scenario1"
-            android:theme="@style/AppTheme.NoActionBar">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.fo893113.choices2016fo.cht1_scenario1" />
-        </activity>
-        <activity
             android:name=".scenario2"
             android:label="@string/title_activity_scenario2"
             android:parentActivityName=".scenario1"
@@ -71,6 +62,15 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.fo893113.choices2016fo.scenario1" />
+        </activity>
+        <activity
+            android:name=".Trophies"
+            android:label="@string/title_activity_trophies"
+            android:parentActivityName=".scenario2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fo893113.choices2016fo.scenario2" />
         </activity>
     </application>
 
