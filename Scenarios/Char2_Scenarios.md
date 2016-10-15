@@ -14,10 +14,11 @@
  -     Student: "You dont need an A in every class"
  -     Student: "Maybe you shouldn't join a club"
  - "Ok, I think I'll join a club"
-
-
-  
-
+ -      Result: Student gains points towards trophy for involvement.
+ -      Message: 
+ - "I dont think I'll join a club"
+ -      Result: Student doesnt gain points towards trophy for involvement. 
+ -      Message: 
  
 Scenario 1: Sad
   - Dialogue 1
